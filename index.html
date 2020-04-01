@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inscription $_POST</title>
+</head>
+<body>
+<form action="process.php" method="$_POST">
+	<br>
+	<fieldset>
+
+		<table>
+			<tr>
+			<th>adresse mail:</th>
+			<td><input type="text" name="email"></td>
+			</tr>
+
+			<tr>
+			<th>Login:</th>
+			<td><input type="text" name="login"></td>
+			</tr>
+
+			<tr>
+			<th>Mot de passe:</th>
+			<td><input type="password" name="pass"></td>
+
+			</tr>
+		</table>
+
+
+	</fieldset>
+
+
+
+ 
+   <fieldset>
+       <legend>Votre souhait</legend>
+ 
+       <p>
+           Choissiez l'affichage :
+
+           <input type="radio" name="souhait" value="Avoir les previsions meteo pour 5 jours" id="5" /> <label for="5 jours">5 jours</label>
+           <input type="radio" name="souhait" value="Avoir les prévisions meteo pour 3 jours" id="3" /> <label for="3 jours">3 jours</label>
+           <input type="radio" name="souhait" value="Avoir les previsions meteo pour le lendemain" id="lendemain" /> <label for="lendemain">Lendemain</label>
+           <input type="radio" name="souhait" value="autre" id="Avoir les previsions meteo pour une semaine" /> <label for="semaine">Semaine</label><br>
+           <div class="button">
+        <button type="submit">Cliquez pour terminer votre inscription. <a href="carte.html">acceder au site.</a></button>
+    </div>
+       </p>
+ 
+   </fieldset>
+</form>
+</body>
+</html>
